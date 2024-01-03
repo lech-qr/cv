@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Letter - Lech Kurant - Frontend Developer / Specjalista IT</title>
+    <link rel="stylesheet" href="css/cover-letter.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Data
+            var d = new Date();
+            var month = d.getMonth() + 1;
+            var day = d.getDate();
+            var output =
+                (('' + day).length < 2 ? '0' : '') + day + '-' +
+                (('' + month).length < 2 ? '0' : '') + month + '-' +
+                d.getFullYear();
+            $('.date span').html(output);
+            // Formularz
+            $('input, textarea').keyup(function () {
+                var name_e_1 = $('.name_e_1').val();
+                var adress_e_1 = $('.adress_e_1').val();
+                var adress_e_2 = $('.adress_e_2').val();
+                var position = $('.position').val();
+                var job_post = $('.job_post').val();
+                $('.--name_e_1').html(name_e_1);
+                $('.to p:nth-child(2)').html(adress_e_1);
+                $('.to p:nth-child(3)').html(adress_e_2);
+                $('.--position').html(position);
+                $('.--job_post').html(job_post);
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <form>
+        <input class="name_e_1" type="text" placeholder="Nazwa pracodawcy">
+        <input class="adress_e_1" type="text" placeholder="Adres pracodawcy">
+        <input class="adress_e_2" type="text" placeholder="Kod pocztowy i miasto">
+        <input class="position" type="text" placeholder="Stanowisko">
+        <input class="job_post" type="text" placeholder="Gdzie znalazłem ogłoszenie">
+    </form>
+    <article>
+        <section class="date">
+            Lublin, <span></span>
+        </section>
+        <sction class="me">
+            <p>Lech Kurant</p>
+            <p>Szmaragdowa 24A/20</p>
+            <p>20-570 Lublin</p>
+            <p>lech@kurant.org.pl</p>
+            <p>+48 886 556 899</p>
+        </sction>
+        <section class="to">
+            <p class="--name_e_1">Nazwa pracodawcy</p>
+            <p>Adres pracodawcy</p>
+            <p>Kod pocztowy i miasto</p>
+        </section>
+        <main>
+            <h1>Dear Sir or Madam.</h1>
+            <p>I am writing to express my strong interest in the <strong class="--position"></strong> position at
+                <strong class="--name_e_1"></strong>, as advertised on <strong class="--job_post"></strong>. With a
+                background in IT, a passion for technology,
+                and a proven track record of successfully delivering innovative solutions, I believe I am well-equipped
+                to
+                contribute to your team's success.
+            </p>
+            <p>I am excited about the opportunity to work at <strong class="--name_e_1"></strong> because of your
+                company's reputation for
+                cutting-edge technology solutions and commitment to fostering a collaborative, creative, and dynamic
+                work environment. The company's vision aligns with my career aspirations, and I am eager to be part of a
+                team that thrives on innovation and pushing the boundaries of what is possible in the IT industry.</p>
+            <p>My experience as a Front-end developer at Minti Shop has equipped me with a diverse skill set
+                that I believe makes me a strong candidate for this role. Some of my key qualifications include:</p>
+            <ul>
+                <li><strong>Proficiency in</strong> HTML5, CSS/less, jQuery, Bootstrap, Wordpress</li>
+                <li><strong>A strong understanding of</strong> Responsive Web Design, Search Engine Optimization, UX
+                    design</li>
+                <li>A track record of collaborating with cross-functional teams to deliver high-impact solutions.</li>
+                <li>Excellent problem-solving skills and the ability to troubleshoot complex technical issues.</li>
+            </ul>
+            <p>Moreover, I am constantly seeking opportunities to enhance my skills and stay up-to-date with the latest
+                industry trends. My dedication to ongoing learning has allowed me to adapt to rapidly changing
+                technology landscapes and to stay ahead in this fast-paced field.</p>
+            <p>I am particularly drawn to <strong class="--name_e_1"></strong> because of your commitment to employee
+                development and growth. I am confident that my skills, drive, and enthusiasm will make me a valuable
+                asset to
+                your IT team.</p>
+            <p>Thank you for considering my application. I am excited about the possibility of contributing my expertise
+                to <strong class="--name_e_1"></strong> and would welcome the opportunity to discuss how my
+                qualifications
+                align with your
+                organization's needs. Please find my resume attached for your review.</p>
+            <p>I look forward to the opportunity to speak with you further about how my experience and skills can
+                benefit your team. You can reach me at <strong>+48 886 556 899</strong> or via email at
+                <strong>lech@kurant.org.pl</strong>. Thank you for your time and consideration.
+            </p>
+            <p>Sincerely,<br>Lech Kurant</p>
+        </main>
+    </article>
+</body>
+
+</html>

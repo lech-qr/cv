@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0');
+
+@padding: 10mm;
+@lewy_mb: 9mm;
+@prawy_mb: 2mm;
+@niebieski_1: #c0d6ef;
+@niebieski_2: #6e91b7;
+@lewy_txt: #000;
+@szary: #777;
+
+html {
+    font-size: 5mm;
+}
+
+body {
+    background-color: #ccc;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    article {
+        display: flex;
+        margin: 0 auto;
+        width: 210mm;
+        height: 297mm;
+        background-color: #fff;
+
+        section {
+            &#left {
+                width: 80mm;
+                background-color: @niebieski_1;
+
+                img.portrait {
+                    width: calc(100% - 2*@padding);
+                    padding: @padding;
+                    border-radius: 50%;
+                }
+
+                div.wrap {
+                    padding: 0 0 @padding @padding;
+
+                    h1 {
+                        display: flex;
+                        align-items: center;
+                        margin: 0 0 3mm 0;
+                        color: @niebieski_2;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 1.2rem;
+
+                        span {
+                            margin: 0 3mm 0 0;
+                        }
+
+                        &::after {
+                            content: '';
+                            flex: 1;
+                            height: .4mm;
+                            background-color: @niebieski_2;
+                        }
+                    }
+
+                    p,
+                    a {
+                        color: @lewy_txt;
+                        font-size: .8rem;
+                        font-weight: 300;
+                        margin: 0;
+                        text-decoration: none;
+                    }
+
+                    .contact {
+                        margin-bottom: @lewy_mb;
+
+                        >span {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            margin-bottom: 3mm;
+
+                            span {
+                                width: 4mm;
+                                color: @lewy_txt;
+                                text-indent: -1mm;
+                                margin-right: 3mm;
+                            }
+                        }
+                    }
+
+                    .profile {
+                        margin-bottom: @lewy_mb;
+
+                        p {
+                            text-align: justify;
+                            padding-right: 5mm;
+                            font-size: .75em;
+                        }
+                    }
+
+                    .birthday {
+                        margin-bottom: @lewy_mb;
+                    }
+
+                    .skills {
+                        padding-right: @padding;
+                        margin-bottom: @lewy_mb;
+
+                        p {
+                            margin-bottom: 1mm;
+                        }
+
+                        span {
+                            display: flex;
+                            width: 100%;
+                            height: .5mm;
+                            background-color: #fff;
+                            margin-bottom: 3mm;
+
+                            &::before {
+                                content: '';
+                                height: 1mm;
+                                margin-top: -0.125mm;
+                                background-color: #fff;
+                            }
+
+                            &::after {
+                                content: '';
+                                width: 3mm;
+                                height: 3mm;
+                                background-color: #fff;
+                                margin: -1mm 0 0 -1mm;
+                                border-radius: 50%;
+
+                            }
+
+                            &:nth-of-type(1) {
+                                &::before {
+                                    width: 100%;
+                                }
+                            }
+
+                            &:nth-of-type(2) {
+                                &::before {
+                                    width: 100%;
+                                }
+                            }
+
+                            &:nth-of-type(3) {
+                                &::before {
+                                    width: 85%;
+                                }
+                            }
+
+                            &:nth-of-type(4) {
+                                &::before {
+                                    width: 95%;
+                                }
+                            }
+
+                            &:nth-of-type(5) {
+                                &::before {
+                                    width: 95%;
+                                }
+                            }
+
+                            &:nth-of-type(6) {
+                                &::before {
+                                    width: 90%;
+                                }
+                            }
+
+                            &:nth-of-type(7) {
+                                &::before {
+                                    width: 85%;
+                                }
+                            }
+                        }
+                    }
+
+                    .interests {
+                        display: flex;
+                        justify-content: space-between;
+                        padding-right: @padding;
+
+                        span {
+                            color: #fff;
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+
+            &#right {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 130mm;
+                padding: @padding;
+                background-color: #fff;
+
+                .name {
+                    margin-bottom: @prawy_mb;
+
+                    h1 {
+                        color: @niebieski_1;
+                        text-transform: uppercase;
+                        font-size: 3rem;
+                        font-weight: 900;
+                        margin: 0;
+
+                        span {
+                            font-weight: 400;
+                            color: @niebieski_2;
+                        }
+                    }
+
+                    h2 {
+                        color: @szary;
+                        margin: -2mm 0 0 0;
+                        font-size: 1.2rem;
+                        font-weight: 300;
+                    }
+                }
+
+                h3 {
+                    display: flex;
+                    align-items: center;
+                    margin: 0 0 1mm 0;
+                    color: @niebieski_2;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 1.2rem;
+
+                    span {
+                        background-color: #fff;
+                        margin: 0 3mm 0 0;
+                    }
+
+                    &::after {
+                        content: '';
+                        flex: 1;
+                        height: 1mm;
+                        background-color: @niebieski_2;
+                    }
+                }
+
+                .experience,
+                .achievements,
+                .education,
+                .skills,
+                .courses {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: @prawy_mb;
+
+                    >*:not(h3) {
+                        font-size: .8rem;
+                    }
+
+                    h4 {
+                        margin: 0;
+                        font-weight: 400;
+
+                        span {
+                            font-weight: 400;
+                            color: @szary;
+                        }
+                    }
+
+                    p {
+                        display: inline-block;
+                        margin: 0;
+                        font-weight: 400;
+                        color: @szary;
+                    }
+
+                    ul {
+                        padding: 0;
+                        margin: 0;
+
+                        li {
+                            display: inline;
+                            list-style-type: circle;
+
+                            &::before {
+                                content: '•';
+                                margin-right: 0.2rem;
+                            }
+                        }
+                    }
+                }
+
+                p.rodo {
+                    font-size: .6rem;
+                    color: @szary;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+@media print {
+
+    body {
+        margin: 0;
+        color: #000;
+        background-color: #fff;
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+
+        article {
+            section {
+
+                &#left {
+                    height: 297mm;
+                }
+
+                &#right {
+                    height: 277mm;
+                }
+            }
+        }
+    }
+
+}
