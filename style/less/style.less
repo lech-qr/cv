@@ -36,7 +36,7 @@ body {
                 }
 
                 div.wrap {
-                    padding: 0 0 @padding @padding;
+                    padding: 0 0 (@padding / 2) @padding;
 
                     h1 {
                         display: flex;
@@ -204,7 +204,7 @@ body {
                 flex-direction: column;
                 justify-content: space-between;
                 width: 130mm;
-                padding: @padding;
+                padding: @padding @padding (@padding/2) @padding;
                 background-color: #fff;
 
                 .name {
@@ -263,7 +263,7 @@ body {
                     margin-bottom: @prawy_mb;
 
                     >*:not(h3) {
-                        font-size: .8rem;
+                        font-size: .75rem;
                     }
 
                     h4 {
@@ -290,6 +290,10 @@ body {
                         li {
                             display: inline;
                             list-style-type: circle;
+
+                            span {
+                                color: @szary;
+                            }
 
                             &::before {
                                 content: '•';
