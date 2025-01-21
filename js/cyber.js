@@ -33,7 +33,7 @@ skills = [
 contents = {
   job_profile_pl: `Jestem specjalistą IT odpowiedzialnym za infrastrukturę i&nbsp;procesy w e-commerce. 
     Równolegle służę w Zespole Działań Cyberprzestrzennych w DWOT. W&nbsp;obu tych aktywnościach staram się 
-    wykorzystać wsztystkie umiejętności które zdobyłem podczas ponad piętnastoletniej aktywności zawodowej w obszarze IT.`,
+    wykorzystać wsztystkie umiejętności które zdobyłem podczas ponad piętnastoletniej aktywności zawodowej w&nbsp;obszarze&nbsp;IT.`,
   job_profile_en: `I am an IT specialist responsible for e-commerce infrastructure and processes. I also work in the Cybersecurity Team at DWOT. In both of these activities, I try to use all the skills I have acquired during my fifteen years of professional activity in the IT field.`,
 
   experience_pl: `<h4>2021 - do dziś - Zespół Działań Cyberprzestrzennych DWOT <span>informatyk w sekcji działań Infoops</span></h4>
@@ -111,7 +111,7 @@ contents = {
     <li>Data&nbsp;processing <span>- original accounting tool based on&nbsp;MySQL i PHP</span></li>`,
 
   education_pl: `<h4>2005 - 2009 Katolicki Uniwersytet Lubelski<span> - magister</span></h4>
-                <h4>2023 Wojskowa Akademia Techniczna<span> - Kurs Oficerski w korpusie kryptologii i&nbsp;cyberbezpieczeństwa</span></h4>
+                <h4>2023 Wojskowa Akademia Techniczna<span> - Kurs Oficerski w korpusie kryptologii i&nbsp;cyberbezpieczeństwa</span></h4><br>
                 <ul>
                     <li>2022 altkom akademia <span>- Warsztaty CompTIA Security+</span></li>
                     <li>2021&nbsp;Sii&nbsp;Training&nbsp;Practice <span>- Zostań developerem Front-end</span></li>
