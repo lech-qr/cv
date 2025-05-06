@@ -77,6 +77,7 @@ contents = {
                 <h4>2009 - 2010 MAIK Agencja Reklamowa <span>- implementation specialist</span></h4>`,
 
   skills_pl: `<li>Systemy operacyjne - administracja, bezpieczeństwo, użytkowanie <span>- Linux / Windows</span></li>
+                <li>AI - <span>narzędzia i najlepsze praktyki</span></li>
                 <li>Budowa i administracja sieci <span>- Ubiquity / UniFi</span></li>
                 <li>Cyberbezpieczeństwo - <span>CompTIA Security+</span></li>
                 <li>Fullstack development <span>- HTML5, PHP, Preprocesory CSS, JavaScript, Responsive Web Design, Bootstrap</span></li>
@@ -84,8 +85,9 @@ contents = {
                 <li>Programy&nbsp;graﬁczne <span>- raster / wektor</span></li>                
                 <li>Pakiety biurowe <span>- Ofﬁce / Open Ofﬁce</span></li>
                 <li>System kontroli wersji <span>- Git</span></li>
-                <li>Język angielski <span>- biegle w&nbsp;mowie i piśmie (TELC&nbsp;B2, STANAG2)</span></li>`,
+                <li>Język angielski <span>- wyższy średnio zaawansowany (TELC&nbsp;B2, STANAG2)</span></li>`,
   skills_en: `<li>Operating systems - administration, security, use <span>- Linux / Windows</span></li>
+              <li>AI - <span>tools and best practices</span></li>
               <li>Network&nbsp;Construction and Administration <span>- Ubiquiti / UniFi</span></li>
               <li>Cybersecurity - <span>CompTIA&nbsp;Security+</span></li>
               <li>Fullstack development <span>- HTML5, PHP, CSS preprocessors, JavaScript, Responsive Web Design, Bootstrap</span></li>
@@ -113,6 +115,7 @@ contents = {
   education_pl: `<h4>2005 - 2009 Katolicki Uniwersytet Lubelski<span> - magister</span></h4>
                 <h4>2023 Wojskowa Akademia Techniczna<span> - Kurs Oficerski w korpusie kryptologii i&nbsp;cyberbezpieczeństwa</span></h4><br>
                 <ul>
+                    <li>2025 Google / SGH <span>- Wykorzystanie AI w rozwoju firmy</span></li>
                     <li>2022 altkom akademia <span>- Warsztaty CompTIA Security+</span></li>
                     <li>2021&nbsp;Sii&nbsp;Training&nbsp;Practice <span>- Zostań developerem Front-end</span></li>
                     <li>2021&nbsp;DYNACON&nbsp;Connecting&nbsp;Data <span>- Zaawansowane zarządzanie bezpieczeństwem
@@ -130,6 +133,7 @@ contents = {
   education_en: `<h4>2005 - 2009 Catholic University of Lublin<span> - Master of Arts</span></h4>
                     <h4>2023 Military University of Technology<span> - Officer's Course in the Cryptology and Cybersecurity Corps</span></h4>
                 <ul>
+                    <li>2025 Google / SGH <span>- Using AI in business development</span></li>
                     <li>2022 altkom akademia <span>- Workshops CompTIA Security+</span></li>
                     <li>2021&nbsp;Sii&nbsp;Training&nbsp;Practice <span>- Become a Front-end developer</span></li>
                     <li>2021&nbsp;DYNACON&nbsp;Connecting&nbsp;Data <span>- Advanced information security management; Network basics; Network basics</span></li>
